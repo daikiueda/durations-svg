@@ -1,2 +1,2 @@
 # durations-svg
-Array&lt;>
+Array&lt;{ startTime: number; duration: number; }&gt; to SVG
