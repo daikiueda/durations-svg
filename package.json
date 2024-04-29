@@ -25,7 +25,7 @@
   "scripts": {
     "build": "tsc -p ./tsconfig.json && tsc -p ./tsconfig.cjs.json",
     "postinstall": "npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava"
   },
   "dependencies": {
     "@tsconfig/node20": "^20.1.4",
@@ -38,12 +38,13 @@
   "devDependencies": {
     "@eslint/js": "^9.1.1",
     "@types/node": "^20.12.7",
+    "ava": "^6.1.2",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-react": "^7.34.1",
     "globals": "^15.0.0",
     "prettier": "^3.2.5",
-    "tsx": "^4.7.3",
+    "tsimp": "^2.0.11",
     "typescript-eslint": "^7.7.1"
   }
 }

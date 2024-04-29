@@ -62,7 +62,7 @@ const templateEjs = `
     <line class="scale" x1="<%- scaleX(x) %>" y1="24" x2="<%- scaleX(x) %>" y2="<%- bottomEdge %>" />
 <% } %>
 <% _durations.forEach((d, index) => { %>
-    <text class="path" x="<%- scaleX(d.startTime) %>" y="<%- shiftY(index) %>"><%- d.path %></text>
+    <text class="title" x="<%- scaleX(d.startTime) %>" y="<%- shiftY(index) %>"><%- d.title %></text>
     <rect class="bar" x="<%- scaleX(d.startTime) %>" y="<%- shiftY(index) + 5 %>" width="<%- scaleX(d.duration, true) %>" height="<%- BAR_HEIGHT %>" rx="4" />
     <text class="startTime" x="<%- scaleX(d.startTime) - 5 %>" y="<%- shiftY(index) + 6 + (BAR_HEIGHT / 2) %>"><%- toSec(d.startTime) %></text>
     <text class="endTime<%- d.endTime === maxEndTime ? ' last': '' %>" x="<%- scaleX(d.startTime + d.duration) + 5 %>" y="<%- shiftY(index) + 6 + (BAR_HEIGHT / 2) %>"><%- toSec(d.endTime) %></text>

@@ -1,8 +1,10 @@
-import index from "../index";
+import test from "ava";
+
+import render from "../index.js";
 
 import durations from "./sample.json";
 
-(async () => {
-  const result = await index(durations);
-  console.log(result);
-})();
+test("render SVG", (t) => {
+  const svgStr = render(durations);
+  t.snapshot(svgStr);
+});
