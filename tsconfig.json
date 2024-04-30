@@ -1,3 +1,11 @@
 {
-  "extends": "@tsconfig/node20/tsconfig.json"
+  "extends": "@tsconfig/node20/tsconfig.json",
+  "compilerOptions": {
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "outDir": "./module",
+    "declaration": true,
+    "resolveJsonModule": true
+  },
+  "exclude": ["./module", "./lib", "./src/__tests__"]
 }

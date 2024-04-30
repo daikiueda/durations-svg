@@ -1,0 +1,62 @@
+[
+  {
+    "title": "/env/get",
+    "startTime": 207,
+    "duration": 1076
+  },
+  {
+    "title": "/setting/get",
+    "startTime": 1450,
+    "duration": 225
+  },
+  {
+    "title": "/task/list",
+    "startTime": 1453,
+    "duration": 174
+  },
+  {
+    "title": "/member/list",
+    "startTime": 1458,
+    "duration": 170
+  },
+  {
+    "title": "/input/list",
+    "startTime": 1459,
+    "duration": 275
+  },
+  {
+    "title": "/record/list",
+    "startTime": 1459,
+    "duration": 406
+  },
+  {
+    "title": "/master/list",
+    "startTime": 1459,
+    "duration": 433
+  },
+  {
+    "title": "/message/list",
+    "startTime": 1636,
+    "duration": 84
+  },
+  {
+    "title": "/record/list",
+    "startTime": 1710,
+    "duration": 504
+  },
+  {
+    "title": "/job/list",
+    "startTime": 1711,
+    "duration": 211
+  },
+  {
+    "title": "/job-assign/list",
+    "startTime": 1711,
+    "duration": 199
+  },
+  {
+    "title": "/category/list",
+    "startTime": 1923,
+    "duration": 137
+  }
+]
