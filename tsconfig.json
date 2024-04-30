@@ -1,11 +1,12 @@
 {
   "extends": "@tsconfig/node20/tsconfig.json",
   "compilerOptions": {
-    "module": "nodenext",
-    "moduleResolution": "nodenext",
+    "target": "ES2022",
+    "module": "Node16",
+    "moduleResolution": "Node16",
     "outDir": "./module",
     "declaration": true,
     "resolveJsonModule": true
   },
-  "exclude": ["./module", "./lib", "./src/__tests__"]
+  "exclude": ["./module", "./lib", "./bin", "./src/__tests__"]
 }
